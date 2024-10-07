@@ -1,0 +1,8 @@
+{
+    "_id": "SIM_NUMBER", // Unique identifier
+    "phone_number": "PHONE_NUMBER",
+    "status": "active" | "inactive",
+    "activation_date": ISODate("YYYY-MM-DDTHH:MM:SSZ"),
+    "deactivation_date": ISODate("YYYY-MM-DDTHH:MM:SSZ") // Optional
+    "customer_id": "CUSTOMER_ID" // Foreign key referencing the customer document (if applicable)
+  }
